@@ -70,8 +70,6 @@
 
 ## Release v3.1 （ modern + legacy ）
 
-2021.1.23
-
 modern + legacy
 - **modern** 版本同 3.0
 - 新增 **legacy** 版本将静态文件还原为本地实现
@@ -102,8 +100,6 @@ modern + legacy
 - 界面大幅度修改
 
 ## Beta v1.1
-
-2019.11
 
 1.1 第一次修改
 - 界面小改
