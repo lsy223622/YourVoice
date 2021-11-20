@@ -22,26 +22,13 @@
 
 &emsp;&emsp;`（以体积为 5,168,738 字节的 demo.mp3 为例）`
 
->```php
->array(1) {
->["file1"]=>
->array(5) {
->["name"]=>
->string(26) "demo.mp3"
->["type"]=>
->string(10) "audio/mpeg"
->["tmp_name"]=>
->string(14) "/tmp/demo123"
->["error"]=>
->int(0)
->["size"]=>
->int(5168738)
->}
->}
->array(1) {
->[0]=>
->string(21) "文件上传成功！"
->}
+>```html
+    <h3>File upload succeeded...</h3>
+    <ul>
+        <li>Sent: demo.mp3
+        <li>Size: 5168738 bytes
+        <li>Type: audio/mpeg
+    </ul>
 >```
 
 ## 微信扫码访问提示非标准端口怎么办？

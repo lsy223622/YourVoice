@@ -5,8 +5,9 @@ foreach ($_FILES as $fileInfo) {
     $files[] = upload_file($fileInfo);
 }
 var_dump($files);
-function upload_file($fileInfo, $mp3Ext = ['mp3'])
+function upload_file($fileInfo)
 {
+    $mp3Ext = ['mp3'];
     if ($fileInfo['error'] === 0) {
         $ext = strtolower(pathinfo($fileInfo['name'], PATHINFO_EXTENSION));
         if (!in_array($ext, $mp3Ext)) {
