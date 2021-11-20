@@ -22,14 +22,12 @@
 
 &emsp;&emsp;`（以体积为 5,168,738 字节的 demo.mp3 为例）`
 
->```html
-    <h3>File upload succeeded...</h3>
-    <ul>
-        <li>Sent: demo.mp3
-        <li>Size: 5168738 bytes
-        <li>Type: audio/mpeg
-    </ul>
->```
+<h3>File upload succeeded...</h3>
+<ul>
+    <li>Sent: demo.mp3
+    <li>Size: 5168738 bytes
+    <li>Type: audio/mpeg
+</ul>
 
 ## 微信扫码访问提示非标准端口怎么办？
 
